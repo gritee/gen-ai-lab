@@ -39,8 +39,10 @@ If the accuracy gap between the two models is inside the confidence intervals, t
   README.md               how to run, in order
   configs/
     exp01.yaml            one file per experiment
+  pipeline/               builds the dataset (fetch, build, manifest); see README
   data/
-    dataset.jsonl         input + expected output per line
+    dataset.jsonl         id, input (cleaned page text), expected (ingredient list) per line
+    DATASET.md            how it was built, what the labels mean
   prompts/
     base.txt
   src/

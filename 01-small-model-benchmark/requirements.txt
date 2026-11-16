@@ -1,0 +1,4 @@
+# Dataset build only (pipeline/build_dataset.py). Fetching uses the scraper's own env.
+ingredient-parser-nlp==2.10.0
+langdetect==1.0.9
+lxml==5.3.0

@@ -1,0 +1,25 @@
+{
+  "file": "data/dataset.jsonl",
+  "sha256": "3b786d83af1cf68d32af258711739cba4a21f42158c349e178c634cd860a2113",
+  "rows": 2332,
+  "bytes": 23400340,
+  "ingredient_lines": 23580,
+  "ingredient_lines_with_unit": 18230,
+  "input_chars": {
+    "min": 383,
+    "median": 7219,
+    "p90": 13519,
+    "p99": 25516,
+    "max": 1305042
+  },
+  "ingredients_per_recipe": {
+    "min": 1,
+    "median": 9.0,
+    "max": 45
+  },
+  "versions": {
+    "ingredient-parser-nlp": "2.10.0",
+    "langdetect": "1.0.9",
+    "lxml": "5.3.0"
+  }
+}
